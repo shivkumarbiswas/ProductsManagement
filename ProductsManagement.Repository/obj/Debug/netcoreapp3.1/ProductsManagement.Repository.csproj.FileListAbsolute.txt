@@ -1,0 +1,10 @@
+D:\ProductsManagement\ProductsManagement.Repository\obj\Debug\netcoreapp3.1\ProductsManagement.Repository.csproj.AssemblyReference.cache
+D:\ProductsManagement\ProductsManagement.Repository\obj\Debug\netcoreapp3.1\ProductsManagement.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProductsManagement\ProductsManagement.Repository\obj\Debug\netcoreapp3.1\ProductsManagement.Repository.AssemblyInfoInputs.cache
+D:\ProductsManagement\ProductsManagement.Repository\obj\Debug\netcoreapp3.1\ProductsManagement.Repository.AssemblyInfo.cs
+D:\ProductsManagement\ProductsManagement.Repository\obj\Debug\netcoreapp3.1\ProductsManagement.Repository.csproj.CoreCompileInputs.cache
+D:\ProductsManagement\ProductsManagement.Repository\bin\Debug\netcoreapp3.1\ProductsManagement.Repository.deps.json
+D:\ProductsManagement\ProductsManagement.Repository\bin\Debug\netcoreapp3.1\ProductsManagement.Repository.dll
+D:\ProductsManagement\ProductsManagement.Repository\bin\Debug\netcoreapp3.1\ProductsManagement.Repository.pdb
+D:\ProductsManagement\ProductsManagement.Repository\obj\Debug\netcoreapp3.1\ProductsManagement.Repository.dll
+D:\ProductsManagement\ProductsManagement.Repository\obj\Debug\netcoreapp3.1\ProductsManagement.Repository.pdb

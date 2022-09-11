@@ -1,0 +1,55 @@
+﻿@model ProductsManagement.Models.ListProductViewModel
+@{
+    ViewData["Title"] = "Products Management Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Products Management</h1>
+
+    <form asp-action="Index" class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label">Search By Category Name</label>
+            <select asp-for="CategoryCode"class="form-control" asp-items="@Model.Categories">
+                <option value="">--Select--</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <div style="text-align:right;">
+        <a href="/Home/Create">Create</a>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sr No.</th>
+                <th>Product Code</th>
+                <th>Product Name</th>
+                <th>Category Name</th>
+                <th>Unit Price</th>
+                <th>Manufacture Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Products)
+            {
+                <tr>
+                    <td>@item.Sr_No</td>
+                    <td>@item.ProdCode</td>
+                    <td>@item.ProdName</td>
+                    <td>@item.CategoryName</td>
+                    <td>@item.UnitPrice</td>
+                    <td>@item.ManufactureDate</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ProdCode">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.ProdCode">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
